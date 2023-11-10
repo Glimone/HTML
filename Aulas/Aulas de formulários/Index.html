@@ -7,14 +7,24 @@
     </head>
     <body>
         <h3>Acesso</h3>
+        <!--Form é a abreviação de Formulário. Sempre que houver a necessidade da criação de um formulário e formos adicionar essa tag, posteriormente os compontentes do formulário dentro dela.-->
         <form>
             Login: 
             <br>
+            <!--"Input" nesse contexto, significa "Preenchimento", nele, iremos definir qual o tipo de formulário será preenchido. Como pode ver, foi adicionado em seguida o "Type", que define o tipo. "Name" é usado para o processamento, porém, para usá-lo, é necessário uma linguagem, então não o usaremos.-->
             <input type="Text" name="">
+            <!--Além disso, existem diversos tipos para input, cujo podem ser encontrados aqui: "https://www.w3schools.com/html/html_form_input_types.as<a href=p" -->
+
             <br>
             Senha:
             <br>
-            <input type="text" name=""> 
+
+            <input type="password" name="Logar"> 
+                <!--Outro atributo importante no futuro para o uso integrado com uma linguagem, é o "Submit", ele é responsável por enviar os dados cadastrados, normalmente, para um outro atributo usado em "Form", que é o "Action", que na maioria das vezes, tem definido php para processamento.-->
+
+                <!--"Value" é usado para definir um nome ao botão. Você pode definir o "Type" como button antes disso, porém, a definição do nome no botão, é dada por ele.-->
+            <input type="submit" value="Acessar">
+            
                  
 
         </form>
